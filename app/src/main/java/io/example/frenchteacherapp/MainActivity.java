@@ -49,9 +49,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             playSound(R.raw.red);
         } else if (clickedId == R.id.yellowBtn) {
             playSound(R.raw.yellow);
-
         }
-
 
     }
 
@@ -60,7 +58,5 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         MediaPlayer mp = MediaPlayer.create(this, id);
         mp.start();
     }
-
-
 
 }
